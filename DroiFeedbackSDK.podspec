@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 s.name             = "DroiFeedbackSDK"
-s.version          = "0.0.1"
+s.version          = "0.0.3"
 s.summary          = "DroiFeedbackSDK iOS 卓易反馈"
 s.description      = "DroiFeedbackSDK iOS 卓易反馈，使得开发者可以快速集成反馈功能"
 s.homepage         = "https://github.com/DroiBaaS"
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
 s.author           = { "DoriBaaS" => "droiinfo@droi.com" }
-s.source           = { :git => "https://github.com/DroiBaaS/DroiFeedbackSDK", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/DroiBaaS/DroiFeedbackSDK.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/NAME'
 
 s.platform     = :ios, '8.0'
