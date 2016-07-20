@@ -14,7 +14,7 @@ s.platform     = :ios, '8.0'
 
 s.requires_arc = true
 
-s.vendored_frameworks = "**/DroiFeedbackSDK.framework"
+s.vendored_frameworks = "**/DroiFeedback.framework"
 s.frameworks = 'Foundation', 'UIKit'
 s.libraries = "sqlite3"
 s.dependency 'DroiCoreSDK'
