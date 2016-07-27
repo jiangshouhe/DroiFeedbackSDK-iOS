@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name             = "DroiFeedbackSDK"
-s.version          = "0.0.8"
-s.summary          = "DroiFeedbackSDK"
+s.version          = "0.0.9"
+s.summary          = "卓易反馈"
 s.description      = "帮助开发者快速集成反馈功能"
 s.homepage         = "https://github.com/DroiBaaS"
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -15,7 +15,7 @@ s.platform     = :ios, '8.0'
 s.requires_arc = true
 
 s.vendored_frameworks = "**/DroiFeedback.framework"
-s.resources = "**/res/*.{png,xib,nib,bundle}"
+s.resources = "**/*.{png,xib}"
 s.frameworks = 'Foundation', 'UIKit'
 s.libraries = "sqlite3"
 s.dependency 'DroiCoreSDK'
