@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "DroiFeedbackSDK"
-s.version          = "0.0.6"
+s.version          = “0.0.7”
 s.summary          = "DroiFeedbackSDK iOS 卓易反馈"
 s.description      = "DroiFeedbackSDK iOS 卓易反馈，使得开发者可以快速集成反馈功能"
 s.homepage         = "https://github.com/DroiBaaS"

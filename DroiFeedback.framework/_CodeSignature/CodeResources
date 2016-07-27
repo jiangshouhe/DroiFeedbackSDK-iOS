@@ -10,15 +10,15 @@
 		</data>
 		<key>DroiFeedbackCell.nib</key>
 		<data>
-		m9v58IKNjOMZ5EtSGcbR+P806zU=
+		ugAQTskVF9JPqmuaP1GClBe0BRE=
 		</data>
 		<key>DroiFeedbackSubmitViewController.nib</key>
 		<data>
-		v4f0UrS9AzFCTSqjLIM4sB+Z3zQ=
+		rANddguzY2p5r4uGouV9F3ng18E=
 		</data>
 		<key>DroiFeedbackViewController.nib</key>
 		<data>
-		NU6wHUqH/isAzJ51XxJQpNczYwc=
+		NII4S2QzLk7INSmXtu9/HeA5Ubc=
 		</data>
 		<key>FeedbackBack.png</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tCUxL7wUiFA0pmoEAxZZ4Bbpd/w=
+		0leurC6PlXfHzZwCY5B5RhhL15k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -44,93 +44,37 @@
 	<key>files2</key>
 	<dict>
 		<key>CloseFeedback.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DvJDipJbP1xmeqUW9HVvHaRUzEE=
-			</data>
-			<key>hash2</key>
-			<data>
-			LtT4k9YWp1s/QgWJN5QncZDRsoeuRah6nypJG6sK4t0=
-			</data>
-		</dict>
+		<data>
+		DvJDipJbP1xmeqUW9HVvHaRUzEE=
+		</data>
 		<key>DroiFeedbackCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m9v58IKNjOMZ5EtSGcbR+P806zU=
-			</data>
-			<key>hash2</key>
-			<data>
-			aLrcFJaKO8BS2bINwssCnRvxHcuC4JNG31di19WsQ6k=
-			</data>
-		</dict>
+		<data>
+		ugAQTskVF9JPqmuaP1GClBe0BRE=
+		</data>
 		<key>DroiFeedbackSubmitViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			v4f0UrS9AzFCTSqjLIM4sB+Z3zQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			EtMW+OsjUSPTkNOvr64s/HTxyAzdy2/zXFwdFHLFoG8=
-			</data>
-		</dict>
+		<data>
+		rANddguzY2p5r4uGouV9F3ng18E=
+		</data>
 		<key>DroiFeedbackViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NU6wHUqH/isAzJ51XxJQpNczYwc=
-			</data>
-			<key>hash2</key>
-			<data>
-			7JhRjudTwrWwHD4dwx4kXD9KKB+uWIik6WtYhyJIkZE=
-			</data>
-		</dict>
+		<data>
+		NII4S2QzLk7INSmXtu9/HeA5Ubc=
+		</data>
 		<key>FeedbackBack.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PWH2c/5Fp1gYIF2VrqTtynSnrU0=
-			</data>
-			<key>hash2</key>
-			<data>
-			JZhORxo7iQdvJKP7XgxFWkK63W3N/lvFBHxUzr8kOco=
-			</data>
-		</dict>
+		<data>
+		PWH2c/5Fp1gYIF2VrqTtynSnrU0=
+		</data>
 		<key>Headers/DroiFeedback.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eI/w8DP8fb5biXhtjd3uBi7gbpw=
-			</data>
-			<key>hash2</key>
-			<data>
-			qq/fwT5/4V8l3GD+Iey9BzMvug9poLERyAucDUD5o9o=
-			</data>
-		</dict>
+		<data>
+		eI/w8DP8fb5biXhtjd3uBi7gbpw=
+		</data>
 		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LK2r2L6kn071DQP96JQtbn5Jm7I=
-			</data>
-			<key>hash2</key>
-			<data>
-			iAm8SSP9HgVdL5z2vHsVRkW2dps+Xkk9IrH+3ykEmXM=
-			</data>
-		</dict>
+		<data>
+		LK2r2L6kn071DQP96JQtbn5Jm7I=
+		</data>
 		<key>NewFeedback.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w2rp/5Hk5rFrCNtWwbLV/1Zj2+Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			I+YTAKg0zKwPud5YsBoXwj9xZBzRWL8914QVj5c0028=
-			</data>
-		</dict>
+		<data>
+		w2rp/5Hk5rFrCNtWwbLV/1Zj2+Q=
+		</data>
 	</dict>
 	<key>rules</key>
 	<dict>
