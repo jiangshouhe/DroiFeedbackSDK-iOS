@@ -44,7 +44,6 @@
  */
 + (void)requestToSummitFeedback:(NSString *)feedbackString contact:(NSString *)contact callback:(void(^)(BOOL result))callback;
 
-
 /**
  获取 SDK 版本号
  */
