@@ -31,9 +31,24 @@ pod  install
 ```
 
 ###  手动集成
-将SDK包解压，在XCode中选择”Add files to 'Your project name'…”，将解压后的libs文件夹中的`DroiFeedback.framework`和`res`文件夹添加到你的工程目录中。
+将SDK包解压，在XCode中选择”Add files to 'Your project name'…”，将解压后的`DroiFeedback.framework`和`res`文件夹下的`DroiFeedbackBundle.bundle`添加到你的工程目录中。
 
 ## 使用
+### 初始化 SDK
+在使用DroiFeedback SDK之前需要先初始化DroiFeedback SDK 请在Applegate.m中添加如下代码，完成初始化。
+> **注意：** 由于api服务的升级，现在使用用户反馈必须要设置`ApiKey`，首先在`web控制台`->`应用管理中心`->`设置详情`->`安全设置`中打开用户反馈服务，然后`ApiKey`可以从`web控制台`->`应用管理中心`->`应用设置`->`安全密钥`中获取。
+
+```
+//请替换成从 DroiBaaS 官网申请的 反馈 ApiKey 同时info.plist的DROI_APP_ID要修改
+#define DROI_FEEDBACK_API_KEY @"w4D6-2Bn3q17gDPwpeVragSKVHIVwRK0yhjlflNMG-pp6JhfU72GW2sOw_dfIbL7"
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [DroiCore initializeCore];
+    //使用 ApiKey 初始化 DroiFeedbackSDK 必须执行
+    [DroiFeedback initializeWithAPIKey:DROI_FEEDBACK_API_KEY];
+    return YES;
+}
+```
 ### 调用反馈页面  
 在适合的页面调用接口后，会自动跳转到反馈页面，默认情况下开发者不需要任何额外设置
 
